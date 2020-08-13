@@ -22,4 +22,4 @@ Answer the following questions in the README:
 Which method(s) does Active Record create for you?
 ActiveRecord creates the initialize, attr_accessor/reader and the .all class method.
 Which method(s) did you have to create yourself? Why?
-In this example, full_name and _tenure are methods we have to create due to their specific functionality.
+In this example, full_name, _tenure, and all_in_grade are methods we have to create due to their specific functionality.
