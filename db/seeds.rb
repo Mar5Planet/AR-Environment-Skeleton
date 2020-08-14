@@ -11,3 +11,11 @@ t2= Teacher.create(last_name: "mccarthy", grade_level: "bootcamp", years_of_expe
 GradeLevel.create(student: s1, teacher: t1);
 GradeLevel.create(student: s1, teacher: t1);
 GradeLevel.create(student: s3, teacher: t1);
+
+Subject.create(student: s1, teacher: t2, subject_name: "history");
+Subject.create(student: s2, teacher: t1, subject_name: "art");
+Subject.create(student: s1, teacher: t1, subject_name: "science");
+
+Assignment.create(student: s3, teacher: t1, project: "biology hw");
+Assignment.create(student: s2, teacher: t1, project: "art poster");
+Assignment.create(student: s1, teacher: t2, project: "essay");
